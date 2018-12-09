@@ -1,0 +1,8 @@
+module.exports = {
+	appId: xxxxxxx,
+	appSecret: 'xxxxxxxxx',
+	tokens: ["xxxxxxxx"],
+    callback: function() {
+    	console.log(JSON.stringify(arguments, null, 2));
+    }
+}
